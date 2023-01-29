@@ -1,0 +1,34 @@
+* {
+    margin: auto 0px;
+    padding: 0px;
+}
+
+.main_container{
+    width: 400px;
+    height: 500px;
+}
+
+.like_box {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 10px;
+    margin: 30px;
+    gap: 10px;
+}
+
+
+.like_info{
+    display: flex;
+    gap: 10px;
+}
+
+.user {
+    display: flex;
+    gap: 20px;
+}
+
+#like{
+    background-color: yellow;
+    padding: 5px;
+}

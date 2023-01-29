@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main_container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.left_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#search{
+    border-radius: 2em;
+    padding: 10px;
+    resize: none;
+}
+
+.leaf{
+    background-color: turquoise;
+    border-radius: 10%;
+}
+
+.top_navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lower_navbar{
+    margin: 10px;
+    border-bottom: solid black;
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner_tittle{
+    display: flex;
+
+}
+
+.specialy_discovery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_discover{
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.discover_duo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: turquoise;
+    padding: 10px;
+    flex: 2;
+}
+
+.aloe_img{
+    width: 100%;
+    height: 100%;
+}
+
+.disc_title{
+    background-color: turquoise;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.discover_arrow{
+    background-color: turquoise;
+    color: aliceblue;
+}
+
+.sub_discover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+}
+
+.aloe_img{
+    display: flex;
+}
+
+.aloe_but{
+    background-color: turquoise;
+    color: aliceblue;
+    border-color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+
+
+.ul2{
+    list-style: none;
+    display: flex;
+    background-color: lightblue;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.plant{
+    display: flex;
+    width: 80%;
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+}
+
+.cookies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    outline: solid black;
+    background-color: aliceblue;
+    margin-top: -30px;
+}
+
+.cookie_button{
+    color: aliceblue;
+    background-color: turquoise;
+    width: 80px;
+    height: 30px;
+}

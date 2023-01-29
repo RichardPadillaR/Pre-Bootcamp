@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="navbar">
+            <div class="top_navbar">
+                <div class="left_nav">
+                    <div class="leaf"><img src="imgs/leaf.png" alt="leaf"></div>
+                    <h1>EasyBay</h1>
+                    <div>
+                        <textarea name="search" id="search" cols="45" rows="1" placeholder="Search for anything"></textarea>
+                    </div>
+                </div>
+                <div class="right_nav">
+                    <div>
+                        <p>Sign In</p>
+                    </div>
+                    <img onclick="cart()" src="imgs/cart-dark.png" alt="">
+                    </div>
+                </div>
+            <div class="lower_navbar">
+                <div class="leaf_types">
+                    <ul class="ul">
+                        <li>Aeonium</li>
+                        <li>Andormischus</li>
+                        <li>Agave</li>
+                        <li>Aloe</li>
+                        <li>Anacampseros</li>
+                        <li>Aristaloe</li>
+                        <li>More...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="inner_title">
+            <h2>Your Source for Serious Succulent Specialties</h2>
+        </div>
+        <div class="specialy_discovery">
+            <div class="main_discover">
+                <div class="discover_duo">
+                    <h3 class="disc_title">Discover succulent varieties one pot or rock at a time!</h3>
+                    <h3 class="discover_arrow">Discover →
+                    </h3>
+                </div>
+                <div class="succ">
+                    <img id="succ_img" onmouseover="change_pic(this)" onmouseleave="revert_pic(this)" src="imgs/succulents-1.jpg" alt="succulents"     width= "100%"
+                    height= "100%">
+                </div>
+            </div>
+            <div class="sub_discover">
+                <div class="aloe_img"><img src="imgs/aloe-m.jpg" height="100%" width="100%" alt="aloe"></div>
+                <button  class="aloe_but">Soothing Aloe →
+                </button> 
+            </div>
+        </div>
+        <div class="other_plants">
+            <ul class="ul2">
+                <div class="item">
+                    <li><img class="plant"  src="imgs/aeonium-s.jpg" alt="Aeonium"> </li><p>Aeonium</p>
+                </div>
+                <div class="item">
+                    <li><img class="plant" src="imgs/aloe-s.jpg" alt="Aloe"></li> <p>Aloe</p>
+                </div>
+                <div class="item">
+                    <li><img class="plant" src="imgs/cactus-s.jpg" alt="Cactus"></li>
+                    <p>Cactus</p>
+                </div>
+                <div class="item">
+                    <li><img class="plant" src="imgs/echeveria-s.jpg" alt="Echeveria"></li>
+                    <p>Echeveria</p>
+                </div>
+                <div class="item">
+                    <li><img class="plant" src="imgs/sedum-s.jpg" alt="Sedum"></li>
+                    <p>Sedum</p>
+                </div>
+                <div class="item">
+                    <li><img class="plant" src="imgs/sempervivum-s.jpg" alt="Sempervivum"></li>
+                    <p>Sempervivum</p>
+                </div>
+                </ul>
+        </div>
+        <div id="cookies" class="cookies">
+            <div>
+                <img src="imgs/alert-dark.png" alt="alert">
+            </div>
+            <div>
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms in our <a href="#">cookie policy.</a></p>
+            </div>
+            <div>
+                <button onclick="remove_cookie('cookies')" class="cookie_button">I accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

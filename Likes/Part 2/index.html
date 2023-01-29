@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="top_bar">
+            <h1 class="title">Network</h1>
+        </div>
+        <div class="sub_title">
+            <h2>Your Feed</h2>
+        </div>
+        <div class="notifications">
+            <div class="name">
+                <div class="top_notification">
+                    <div>
+                        <h3>Neil M</h3>
+                    </div>
+                    <div class="like">
+                        <p id="num_likes1">9</p>
+                        <p>like(s)</p>
+                        <button id="like" onclick="increaseNumber('#num_likes1')">Like</button>
+                    </div>
+                </div>
+                <div class="sub_notification">
+                    <div class="info">
+                        <p>I just set up this new discord bot, let me know what you all think.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="name">
+                <div class="top_notification">
+                    <div>
+                        <h3>Nichole K</h3>
+                    </div>
+                    <div class="like">
+                        <p id="num_likes2">12</p>
+                        <p>like(s)</p>
+                        <button id="like" onclick="increaseNumber('#num_likes2')">Like</button>
+                    </div>
+                </div>
+                <div class="sub_notification">
+                    <div class="info">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="name">
+                <div class="top_notification">
+                    <div>
+                        <h3>Jim R</h3>
+                    </div>
+                    <div class="like">
+                        <p id="num_likes3">9</p>
+                        <p>like(s)</p>
+                        <button id="like" onclick="increaseNumber('#num_likes3')">Like</button>
+                    </div>
+                </div>
+                <div class="sub_notification">
+                    <div class="info">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="avatar">
+            <img src="images/user-circle.png" alt="avatar_img" height="100px"
+            width="100px">
+            <a href="#">Add an avatar</a>
+            <h3>Jane Doe</h3>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
